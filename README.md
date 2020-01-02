@@ -10,29 +10,25 @@ Time spent: **9** hours spent in total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, total amount due.
+* [x] User can enter a bill amount, choose a tip percentage, total amount due.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [x] Settings page to change the default tip percentage.
+* [x] UI animations
+* [x] Remembering the bill amount across app restarts (if <10mins)
 
 The following **additional** features are implemented:
 
-- [ ] Added a text field where users can input how many people are in there party so that they know how much each person pays
-- [ ] A label that displays how much each person pays
+- [x] Added a text field where users can input how many people are in there party so that they know how much each person pays
+- [x] A label that displays how much each person pays
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+http://g.recordit.co/6Me4BEIZ21.gif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+As someone who is new to the field of Computer Science, learning my second language was more difficult than I would have thought. With that in mind, this was my first exposure to anything that related with UIs or anything that was hard code.
 
 ## License
 
