@@ -11,6 +11,7 @@ import UIKit
 class SettingsViewController: UIViewController {
     
     @IBOutlet weak var userInput: UITextField!
+    @IBOutlet weak var partySizeText: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +22,15 @@ class SettingsViewController: UIViewController {
     @IBAction func savePreference(_ sender: Any) {
         
         let userRequest = Double(userInput.text!) ?? 0
+        let customSize = Double(partySizeText.text!) ?? 0
+        
         let defaults = UserDefaults.standard
         
         defaults.set(userRequest, forKey: "myDouble")
-        
-        let doubleValue = defaults.double(forKey: "myDouble")
+        defaults.set(customSize, forKey: "partySize")
         
         defaults.synchronize()
-        
-        print(doubleValue)
+    
     }
     
     /*

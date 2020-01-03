@@ -11,13 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var billField: UITextField!
-    @IBOutlet weak var peopleField: UITextField!
     
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipPerLabel: UILabel!
     
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var partyControl: UISegmentedControl!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +29,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onTap(_ sender: Any) {
-        print("mucha")
+        print("backboard")
         
         view.endEditing(true)
     }
@@ -40,18 +41,23 @@ class ViewController: UIViewController {
         
         let doubleValue = (defaults.double(forKey: "myDouble") * 0.01)
         
+        let customPartySize = (defaults.double(forKey: "partySize"))
+        
         // Get the bill/people amount
         let bill = Double(billField.text!) ?? 0
-        let people = Double(peopleField.text!) ?? 0
+        
+        //let people = Double(peopleField.text!) ?? 0
         
         //Calculate the tip and total
-        let tipPercentages = [0.15, 0.18, 0.2, doubleValue ]
+        let tipPercentages = [0.15, 0.18, 0.2, doubleValue]
+        
+        let peoplePartySize = [1, 2, 3, customPartySize]
         
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         
         let total = bill + tip
         
-        let totalPerPerson = total/people
+        let totalPerPerson = total / peoplePartySize[partyControl.selectedSegmentIndex]
         
         // Update the tip and total labels
         tipLabel.text = String(format: "$ %.2f", tip)
