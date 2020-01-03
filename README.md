@@ -1,10 +1,10 @@
-# Pre-work - Cooking Mama Tip Calculator
+# Code Path Pre-work - Cooking Mama's Tip Calculator
 
-**Cooking Mama Tip Calculator is a tip calculator application for iOS.
+**Cooking Mama's Tip Calculator is a tip calculator application for iOS.
 
 Submitted by: **Cyre Jorin To**
 
-Time spent: **9** hours spent in total
+Time spent: **12** hours spent in total
 
 ## User Stories
 
@@ -12,27 +12,27 @@ The following **required** functionality is complete:
 
 * [x] User can enter a bill amount, choose a tip percentage, total amount due.
 
-The following **optional** features are implemented:
-* [x] Settings page to change the default tip percentage.
-* [x] UI animations
-* [x] Remembering the bill amount across app restarts (if <10mins)
-
 The following **additional** features are implemented:
-
-- [x] Added a text field where users can input how many people are in there party so that they know how much each person pays
-- [x] A label that displays how much each person pays
+* [x] Created an extra segmented control system where the user is able to specify how many people is currently in their party
+* [x] Created an extra label, **Total Per Person** which caluclates how much each person pays in the specified number of party
+* [x] Added an extra option on the segmented control system for "Custom" amounts of values which can the user can specify in the settings page
+* [x] Settings page to change the custom tip percentage and party size.
+* [x] Contains a **Save Preference** in the settings page where I utilized UserDefaults to save data and refer to it in other parts of the application
+* [x] Utilized **Image View** objects with the help of App Icon Generator (appicon.co) online
+* [x] Created a creative Cooking Mama theme with **Image View**
+* [x] Remembering the bill amount across app restarts (if <10mins)
 
 ## Video Walkthrough 
 
-http://g.recordit.co/6Me4BEIZ21.gif
+http://g.recordit.co/R5PkXYvtpp.gif
 
 ## Notes
 
-As someone who is new to the field of Computer Science, learning my second language was more difficult than I would have thought. With that in mind, this was my first exposure to anything that related with UIs or anything that was hard code.
+As someone who is new to the field of Computer Science, Swift is only the second language I have been exposed to. I really enjoyed working on this prework project as it was very hands-on and applicable to my everyday life. Being able to create my very first iOS app did have its learning curve at first, but I was able to persevere and share my creativity through my work.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Cyre Jorin To]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
