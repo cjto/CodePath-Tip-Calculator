@@ -23,7 +23,7 @@ The following **additional** features are implemented:
 * [x] Remembering the bill amount across app restarts (if <10mins)
 
 ## Video Walkthrough 
-<img src=http://g.recordit.co/R5PkXYvtpp.gif width=250><br>
+<img src=http://g.recordit.co/GYYeYQ5OLY.gif width=250><br>
 
 ## Notes
 
