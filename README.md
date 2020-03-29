@@ -1,4 +1,4 @@
-# Code Path Pre-work - Cooking Mama's Tip Calculator
+# Cooking Mama's Tip Calculator
 
 **Cooking Mama's Tip Calculator is a tip calculator application for iOS.
 
