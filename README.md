@@ -2,17 +2,13 @@
 
 **Cooking Mama's Tip Calculator is a tip calculator application for iOS.
 
-Submitted by: **Cyre Jorin To**
-
 Time spent: **12** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is complete:
+The following functionalities are implemented within the application:
 
 * [x] User can enter a bill amount, choose a tip percentage, total amount due.
-
-The following **additional** features are implemented:
 * [x] Created an extra segmented control system where the user is able to specify how many people is currently in their party
 * [x] Created an extra label, **Total Per Person** which caluclates how much each person pays in the specified number of party
 * [x] Added an extra option on the segmented control system for "Custom" amounts of values which can the user can specify in the settings page
