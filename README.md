@@ -19,7 +19,7 @@ The following functionalities are implemented within the application:
 * [x] Remembering the bill amount across app restarts (if <10mins)
 
 ## Video Walkthrough 
-<img src=http://g.recordit.co/GYYeYQ5OLY.gif width=250><br>
+<img src=http://g.recordit.co/5Sx0QhyMgG.gif width=250><br>
 
 ## Notes
 
